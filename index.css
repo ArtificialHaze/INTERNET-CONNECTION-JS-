@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+section {
+  background-color: rgb(32, 30, 30);
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+section p {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.online {
+  background-color: lightskyblue;
+}
+
+section img {
+  width: 25%;
+  border-radius: 10rem;
+}
